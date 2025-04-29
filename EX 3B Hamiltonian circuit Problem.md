@@ -17,7 +17,7 @@ Developed by: Keerthana S
 Register Number:  212222230066
 */
 ```
-```
+```py
 def isSafe(adj,p,v,pos):
     if pos>0 and adj[p[pos-1]][v]==0:
         return False
